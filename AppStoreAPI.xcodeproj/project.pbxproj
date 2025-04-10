@@ -50,11 +50,15 @@
 		};
 		79EE67732DA75D6200FFD334 /* AppStoreAPITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = AppStoreAPITests;
 			sourceTree = "<group>";
 		};
 		79EE677D2DA75D6200FFD334 /* AppStoreAPIUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = AppStoreAPIUITests;
 			sourceTree = "<group>";
 		};
@@ -124,8 +128,6 @@
 				79EE675C2DA75D5F00FFD334 /* AppStoreAPI */,
 			);
 			name = AppStoreAPI;
-			packageProductDependencies = (
-			);
 			productName = AppStoreAPI;
 			productReference = 79EE675A2DA75D5F00FFD334 /* AppStoreAPI.app */;
 			productType = "com.apple.product-type.application";
@@ -147,8 +149,6 @@
 				79EE67732DA75D6200FFD334 /* AppStoreAPITests */,
 			);
 			name = AppStoreAPITests;
-			packageProductDependencies = (
-			);
 			productName = AppStoreAPITests;
 			productReference = 79EE67702DA75D6200FFD334 /* AppStoreAPITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -170,8 +170,6 @@
 				79EE677D2DA75D6200FFD334 /* AppStoreAPIUITests */,
 			);
 			name = AppStoreAPIUITests;
-			packageProductDependencies = (
-			);
 			productName = AppStoreAPIUITests;
 			productReference = 79EE677A2DA75D6200FFD334 /* AppStoreAPIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
